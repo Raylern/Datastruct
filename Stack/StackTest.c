@@ -3,7 +3,7 @@
 #include<string.h>
 
 #include"Stack.h"
-#include"Stack.c"
+//#include"Stack.c"
 
 Element stringCopy(Element);
 void stringFree   (Element);

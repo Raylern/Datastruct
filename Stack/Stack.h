@@ -42,7 +42,7 @@ int_type stackFind(Stack stack,Element elem,ElemEqual elemEqual);
 
 Element stackAltCurr(Stack stack,Element newelem);
 Element stackElemAlt(Stack stack,Element elem,Element newelem,ElemEqual elemEqual);
-Element stackPosAlt (Stack stack,int_type pos,Element newelem);//Not for liked nodes implementation
+Element stackPosAlt (Stack stack,int_type pos,Element newelem);//Not for linked nodes implementation
 void stackDisplay(Stack stack,ElemOutput display);
 
 #endif // STACK_H_
